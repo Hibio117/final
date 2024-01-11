@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>韓国ドラマ一覧</h1>
-    
-</body>
-</html>
+<?php require 'db-connect.php';?>
+
+
+    韓国ドラマ一覧
+<hr>
+<?php
+echo '<table>';
+echo '<tr><th>番号</th><th>作品名</th><th>年</th></tr>';
+
+foreach($sql as $row){
+    $id=$row['drama_id'];
+    echo '<tr>';
+    echo '<td>',$id,'</td>';
+    echo '<td>';
+    echo '<a href="detail.php?id=',$id,'">',$row['name'],'</a>';
+    echo '</td>';
+    echo '<td>',$row['year'],'</td>';
+    echo '</tr>';
+}
+echo '</table>';
+?>
