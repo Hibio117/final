@@ -1,4 +1,5 @@
 <?php require 'db-connect.php';?>
+<form action="detail.php" method="post">
 
 foreach ($sql as $row){
 echo '<p><img alt="image" src="image/', $row['id'], '.jpg"></p>';

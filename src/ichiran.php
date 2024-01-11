@@ -1,5 +1,5 @@
 <?php require 'db-connect.php';?>
-
+<form action="ichiran.php" method="post">
 
     韓国ドラマ一覧
 <hr>
