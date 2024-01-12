@@ -3,19 +3,19 @@
 
     韓国ドラマ一覧
 <hr>
-<?php
-echo '<table>';
-echo '<tr><th>番号</th><th>作品名</th><th>年</th></tr>';
+<h1>作品一覧</h1>
+    <table>
+        <tr><th>番号</th><th>作品名</th><th>年</th></tr>
+    <?php
+    $pdo=new PDO($connect, USER, PASS);
 
-foreach($sql as $row){
-    $id=$row['drama_id'];
-    echo '<tr>';
-    echo '<td>',$id,'</td>';
-    echo '<td>';
-    echo '<a href="detail.php?id=',$id,'">',$row['name'],'</a>';
-    echo '</td>';
-    echo '<td>',$row['year'],'</td>';
-    echo '</tr>';
-}
-echo '</table>';
+    foreach($pdo->query('select * from drama') as $row){
+        echo '<tr>';
+        echo '<td>',$row['drama_id'],'</td>';
+        echo '<td>',$row['name'],'</td>';
+        echo '<td>',$row['year'],'</td>';
+        echo '</tr>';
+        echo "\n";
+     }
 ?>
+    </table>
