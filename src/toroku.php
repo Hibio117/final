@@ -1,6 +1,6 @@
 <?php require 'db-connect.php';?>
 
-作品を登録
+作品を登録<br>
 
     作品名：<input type="text" name="name"><br>
     年：<input type="text" name="year"><br>
