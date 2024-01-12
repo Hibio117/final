@@ -2,6 +2,7 @@
 
 
     韓国ドラマ一覧
+    <a href="index.php" >トップに戻る</a>
 <hr>
 <h1>作品一覧</h1>
     <table>
