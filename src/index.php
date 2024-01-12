@@ -4,6 +4,12 @@
 
     <form action="ichiran.php" method="post">
     <input type="submit" value="一覧">
+
+    <form action="toroku.php" method="post">
     <input type="submit" value="登録">
+
+    <form action="ichiran.php" method="post">
     <input type="submit" value="更新">
+
+    <form action="ichiran.php" method="post">
     <input type="submit" value="削除">
