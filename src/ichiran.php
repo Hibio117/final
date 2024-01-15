@@ -26,7 +26,7 @@
         echo '<td>',$row['drama_id'],'</td>';
         echo '<td>',$row['name'],'</td>';
         echo '<td>',$row['year'],'</td>';
-        echo '<td>';
+        //echo '<td>';
         echo '</td>';
         echo "\n";
      }
