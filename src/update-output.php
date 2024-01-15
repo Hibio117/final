@@ -13,10 +13,10 @@
 <?php
     $pdo=new PDO($connect, USER, PASS);
 
-    $sql=$pdo->prepare('update drama set drama_id=?, name=?, where id=?');
+    $sql=$pdo->prepare('update drama set drama_id=?, name=?, year=?, where id=?');
 
     if (empty($_POST['drama_id'])) {
-        echo '作品IDを入力してください。';
+        echo '作品番号を入力してください。';
     } else
     if (empty($_POST['name'])){
         echo '作品名を入力してください。';
