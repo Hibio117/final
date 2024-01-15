@@ -8,9 +8,10 @@
 <body>
     <h1>作品登録</h1>
     <form action="index.php" method="post">
-    <input type="submit" value="トップに戻る"></form>
+    <input type="submit" value="トップに戻る"></form><br>
 
     <form action="toroku-output.php" method="post">
+    作品ID<input type="text" name="drama_id"></div><br>
     作品名<input type="text" name="name"></div><br>
     年<input type="text" name="year"></div><br>
 <br>
