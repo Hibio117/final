@@ -1,0 +1,9 @@
+@charset "UTF-8";
+    div{
+        text-align: center;
+    }
+
+    body {
+        background-color: #e7cefa;
+        color: #ffffff;
+    }
