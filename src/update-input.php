@@ -1,7 +1,7 @@
 <?php require 'db-connect.php';?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
     $pdo=new PDO($connect, USER, PASS);
 
     foreach ($pdo->query('select * from drama') as $row) {
-        echo '<form action="update-input.php" method="post">';
+        echo '<form action="update-output.php" method="post">';
         echo '<input type="hidden" name="id" value="', $row['drama_id'], '">';
         echo '<div class="td0">',$row['drama_id'],'</div>';
         echo '<div class="td1">';
