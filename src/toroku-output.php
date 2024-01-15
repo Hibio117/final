@@ -17,7 +17,6 @@
         echo'作品名を入力してください';
     }else if(empty($_POST['year'])){
         echo'年を入力してください';
-    }
     }else if($sql->execute([$_POST['drama_id'],$_POST['name'],$_POST['year']]){
         echo '<font color="red">追加しました。</font>';
     }else{
