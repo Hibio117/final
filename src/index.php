@@ -20,7 +20,7 @@
     <form action="update-input.php" method="post">
     <input type="submit" value="更新"></form>
 
-    <form action="delete.php" method="post">
+    <form action="delete-input.php" method="post">
     <input type="submit" value="削除"></form>
 </body>
 </html>
