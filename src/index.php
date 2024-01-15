@@ -17,7 +17,7 @@
     <form action="toroku-input.php" method="post">
     <input type="submit" value="登録"></form>
 
-    <form action="update.php" method="post">
+    <form action="update-input.php" method="post">
     <input type="submit" value="更新"></form>
 
     <form action="delete.php" method="post">
