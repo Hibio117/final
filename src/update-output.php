@@ -13,11 +13,8 @@
 <?php
     $pdo=new PDO($connect, USER, PASS);
 
-    $sql=$pdo->prepare('update drama set drama_id=?, name=?, year=?, where id=?');
+    $sql=$pdo->prepare('update drama set name=?, year=? where drama_id=?');
 
-    if (empty($_POST['drama_id'])) {
-        echo '作品番号を入力してください。';
-    } else
     if (empty($_POST['name'])){
         echo '作品名を入力してください。';
     } else
@@ -25,7 +22,7 @@
         echo '年を入力してください。';
     }else
 
-    if ($sql->execute([htmlspecialchars($_POST['drama_id']), $_POST['name'], $_POST['year']])){
+    if ($sql->execute([htmlspecialchars($_POST['name']), $_POST['year'], $_POST['drama_id']])){
         echo '更新しました。';
     }else{
         echo '更新できませんでした。';
