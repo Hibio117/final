@@ -46,6 +46,6 @@
     }
     ?>
         </table>
-        <button onclick=location.href='update-input.php'">更新画面へ戻る</button>
+        <button onclick="location.href='update-input.php'">更新画面へ戻る</button>
 </body>
 </html>
