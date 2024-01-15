@@ -12,7 +12,7 @@
 <?php
     $pdo=new PDO($connect, USER, PASS);
 
-    $sql=$pdo->prepare('update drama set name=? where id=?');
+    $sql=$pdo->prepare('update drama set drama_id=?, name=?, where id=?');
 
     if (empty($_POST['drama_id'])) {
         echo '作品IDを入力してください。';
