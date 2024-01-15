@@ -11,7 +11,7 @@
     <?php
         $pdo=new PDO($connect, USER, PASS);
         $sql=$pdo->prepare('delete from drama where id=?');
-        if($sql->execute([$_GET['drama_id']])){
+        if($sql->execute([$_GET['id']])){
             echo '削除しました。';
         }else{
             echo '削除できませんでした。';
