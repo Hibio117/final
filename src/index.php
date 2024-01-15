@@ -5,7 +5,7 @@
     <form action="ichiran.php" method="post">
     <input type="submit" value="一覧"></form>
 
-    <form action="toroku/toroku-input.php" method="post">
+    <form action="toroku-input.php" method="post">
     <input type="submit" value="登録"></form>
 
     <form action="update.php" method="post">
