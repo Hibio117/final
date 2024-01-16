@@ -12,8 +12,10 @@
     <div id="content">
     <h1>更新画面</h1>
     <form action="index.php" method="post">
-    <input type="submit" value="トップに戻る"></form><br>
-
+    <input type="submit" value="トップに戻る"></form>
+    <br>
+    <br>
+    <br>
     <div class="th0">作品番号</div>
     <div class="th1">作品名</div>
     <div class="th1">年</div>
