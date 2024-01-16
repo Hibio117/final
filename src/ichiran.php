@@ -12,9 +12,6 @@
 <body>
     <div id="content">
     <h1>作品一覧</h1>
-    <form action="index.php" method="post">
-    <input type="submit" value="トップに戻る"></form><br>
-
     <button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
 
     <table border="1">
