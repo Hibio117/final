@@ -17,7 +17,7 @@
 
     <table border="1">
         <tr>
-            <th>　作品ID　</th><th>　作品名　</th><th>　年　</th>
+            <th>　作品番号　</th><th>　作品名　</th><th>　年　</th>
         </tr>
 
 <?php

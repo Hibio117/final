@@ -12,7 +12,7 @@
     <input type="submit" value="トップに戻る"></form><br>
 
     <form action="toroku-output.php" method="post">
-    作品ID<input type="text" name="drama_id"></form><br>
+    作品番号<input type="text" name="drama_id"></form><br>
     作品名<input type="text" name="name"></form><br>
     　　年<input type="text" name="year"></form><br>
 <br>
