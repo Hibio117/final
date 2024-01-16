@@ -6,6 +6,7 @@
     <title>作品登録画面</title>
 </head>
 <body>
+    <div id="content">
     <h1>作品登録</h1>
     <form action="index.php" method="post">
     <input type="submit" value="トップに戻る"></form><br>

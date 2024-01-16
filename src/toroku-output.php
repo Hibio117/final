@@ -8,6 +8,7 @@
     <title>作品登録画面</title>
 </head>
 <body>
+<div id="content">
 <button onclick="location.href='index.php'">トップへ戻る</button>
 <?php
     $pdo=new PDO($connect,USER,PASS);
