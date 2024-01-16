@@ -15,9 +15,12 @@
     <form action="toroku-output.php" method="post">
     作品番号<input type="text" name="drama_id">
     <br>
+    <br>
     作品名<input type="text" name="name">
     <br>
+    <br>
     　　年<input type="text" name="year">
+    <br>
     <br>
 <br>
     <button type="submit">登録</button></div>
