@@ -33,9 +33,6 @@
             }
         ?>
         </table>
-            <form action="delete-input.php" method="post">
-                <button type="submit">削除画面へ戻る</button>
-        </form>
         <button class="modoru" onclick="location.href='delete-input.php'">削除画面へ戻る</button>
 </body>
 </html>

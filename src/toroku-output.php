@@ -45,5 +45,6 @@
     <form action="toroku-input.php" method="post">
     <button type="submit">追加画面へ戻る</button>
 </form>
+<button class="modoru" onclick="location.href='toroku-input.php'">登録画面へ戻る</button>
 </body>
 </html>
