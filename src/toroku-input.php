@@ -16,6 +16,6 @@
     作品名<input type="text" name="name"></div><br>
     年<input type="text" name="year"></div><br>
 <br>
-    <button type="submit" style=background-color:pink>登録</button>
+    <button type="submit">登録</button>
 </body>
 </html>
