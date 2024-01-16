@@ -4,6 +4,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/toroku-output.css">
     <title>作品登録画面</title>
 </head>
 <body>
