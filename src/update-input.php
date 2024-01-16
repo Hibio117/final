@@ -9,6 +9,10 @@
     <title>Document</title>
 </head>
 <body>
+<h1>更新画面</h1>
+    <form action="index.php" method="post">
+    <input type="submit" value="トップに戻る"></form><br>
+
     <div class="th0">作品ID</div>
     <div class="th1">作品名</div>
     <div class="th1">年</div>
