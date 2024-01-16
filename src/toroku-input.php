@@ -8,8 +8,7 @@
 <body>
     <div id="content">
     <h1>作品登録</h1>
-    <form action="index.php" method="post">
-    <input type="submit" value="トップに戻る"></form><br>
+    <button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
 
     <form action="toroku-output.php" method="post">
     作品番号<input type="text" name="drama_id"></form><br>
