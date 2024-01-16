@@ -13,7 +13,7 @@
         height: 30px;
         border-radius:30px;
         background-color: #ffffff;
-        border-color:#ff6bce ;
+        border-color:#efff3a ;
         color: rgb(0, 0, 0);
         cursor: pointer;
     }
@@ -25,7 +25,7 @@
     table th {
         font-weight: bold;
         vertical-align: top;
-        background: #efff3a;
+        background: #8c8c8c;
         color: #ffffff;
       }
       table td {
