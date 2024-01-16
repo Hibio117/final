@@ -10,6 +10,7 @@ body {
 }
 .ib {
     display:inline-block;
+    margin: auto;
 }
 .th0,.th1,.th2,.td0,.td1,.td2{
     display:inline-block;
