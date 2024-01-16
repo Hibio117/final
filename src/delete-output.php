@@ -10,8 +10,8 @@
 <body>
     <?php
         $pdo=new PDO($connect, USER, PASS);
-        $sql=$pdo->prepare('delete from drama where drama_id=?, name=?, year=?');
-        if($sql->execute([$_GET['drama_id']],[$_GET['name']],[$_GET['year']])){
+        $sql=$pdo->prepare('delete from drama where drama_id=?');
+        if($sql->execute([$_GET['drama_id']])){
             echo '削除しました。';
         }else{
             echo '削除できませんでした。';
