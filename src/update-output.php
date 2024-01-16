@@ -22,7 +22,7 @@
         echo '年を入力してください。';
     }else
 
-    if ($sql->execute([htmlspecialchars($_POST['name']), $_POST['year']])){
+    if ($sql->execute([htmlspecialchars($_POST['name']), $_POST['year'], $_POST['id']])){
         echo '更新しました。';
     }else{
         echo '更新できませんでした。';
