@@ -12,7 +12,7 @@
     <div id="content">
     <h1>更新画面</h1>
     <form action="index.php" method="post">
-    <input type="submit" value="トップに戻る"></form>
+    <button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
     <br>
     <br>
     <br>
