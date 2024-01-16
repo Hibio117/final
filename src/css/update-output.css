@@ -30,3 +30,21 @@ body {
     width:11em;
     margin: auto;
 }
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+
+table th {
+    font-weight: bold;
+    vertical-align: top;
+    background: #8c8c8c;
+    color: #ffffff;
+    margin: auto;
+  }
+  table td {
+    padding: 10px;
+    vertical-align: top;
+    margin: auto;
+  }
