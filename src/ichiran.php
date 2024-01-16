@@ -13,9 +13,6 @@
     <div id="content">
     <h1>作品一覧</h1>
     <button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
-
-    <a href="" class="btn btn--pink btn--raised btn--cubic">PUSH！<i class="fas fa-angle-right fa-position-right"></i></a>
-
     <br>
     <br>
     <br>
