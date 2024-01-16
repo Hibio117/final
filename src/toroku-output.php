@@ -42,6 +42,8 @@
 ?>
 </table>
     <br>
-    <button onclick="location.href='toroku-input.php'">追加画面へ戻る</button>
+    <form action="toroku-input.php" method="post">
+    <button type="submit">追加画面へ戻る</button>
+</form>
 </body>
 </html>
