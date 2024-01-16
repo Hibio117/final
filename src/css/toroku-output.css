@@ -1,0 +1,36 @@
+div{
+    text-align: center;
+}
+
+body {
+    background-color: #68686899;
+    color: #ffffff;
+}
+
+.modoru{
+    width: 150px;
+    height: 30px;
+    border-radius:30px;
+    background-color: #ffffff;
+    border-color:#e865ff ;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+
+table th {
+    font-weight: bold;
+    vertical-align: top;
+    background: #8c8c8c;
+    color: #ffffff;
+    margin: auto;
+  }
+  table td {
+    padding: 10px;
+    vertical-align: top;
+    margin: auto;
+  }
