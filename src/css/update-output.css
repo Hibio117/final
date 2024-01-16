@@ -10,18 +10,23 @@ body {
 }
 .ib {
     display:inline-block;
+    margin: auto;
 }
 .th0,.th1,.th2,.td0,.td1,.td2{
     display:inline-block;
     padding-bottom:5px;
+    margin: auto;
 }
 .th0,.th1,.th2{
     text-align:center;
     font-weight:bold;
+    margin: auto;
 }
 .th0,.td0{
     width:4em;
+    margin: auto;
 }
 .th1,.td1{
     width:11em;
+    margin: auto;
 }
