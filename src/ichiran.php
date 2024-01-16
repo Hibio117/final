@@ -12,8 +12,8 @@
 <body>
     <div id="content">
     <h1>作品一覧</h1>
-    <button class="modoru" onclick="location.href='index.php'">トップに戻る</button><br>
-
+    <button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
+    <br>
     <table border="1">
         <tr>
             <th>　作品番号　</th><th>　作品名　</th><th>　年　</th>
