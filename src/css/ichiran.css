@@ -7,13 +7,12 @@
         background-color: #68686899;
         color: #ffffff;
     }
-
     .modoru{
         width: 150px;
         height: 30px;
         border-radius:30px;
         background-color: #ffffff;
-        border-color:#efff3a;
+        border-color:#ff6bce ;
         color: rgb(0, 0, 0);
         cursor: pointer;
     }
