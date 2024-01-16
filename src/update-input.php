@@ -11,7 +11,6 @@
 <body>
     <div id="content">
     <h1>更新画面</h1>
-    <form action="index.php" method="post">
     <button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
     <br>
     <br>
