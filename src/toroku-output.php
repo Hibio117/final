@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="content">
-<button onclick="location.href='index.php'">トップへ戻る</button>
+<button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
 <?php
     $pdo=new PDO($connect,USER,PASS);
     $sql=$pdo->prepare('insert into drama(drama_id, name, year)values(?,?,?)');
