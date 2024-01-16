@@ -17,3 +17,8 @@
         color: rgb(0, 0, 0);
         cursor: pointer;
     }
+    table,th,td{
+        border-collapse: collapse;
+        border: 1px solid #ccc;
+        line-height: 1.5;
+    }
