@@ -11,8 +11,8 @@
 </head>
 <body>
     <div id="content">
-    <h1>作品一覧</h1><br>
-    <button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
+    <h1>作品一覧</h1>
+    <button class="modoru" onclick="location.href='index.php'">トップに戻る</button><br>
 
     <table border="1">
         <tr>
