@@ -13,9 +13,6 @@
 <div id="content">
 <h1>削除画面</h1>
 <button class="modoru" onclick="location.href='index.php'">トップに戻る</button>
-    <form action="index.php" method="post">
-    <input type="submit" value="トップに戻る"></form><br>
-    
     <table>
 <tr><th>作品番号</th><th>作品名</th><th>年</th>
 <?php
