@@ -10,6 +10,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="content">
 <?php
     $pdo=new PDO($connect, USER, PASS);
 
