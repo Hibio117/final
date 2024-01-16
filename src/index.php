@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="content">
     <h1>韓国ドラマ管理メニュー</h1>
 
     <form action="ichiran.php" method="post">
