@@ -19,7 +19,7 @@
         echo '<td>',$row['name'],'</td>';
         echo '<td>',$row['year'],'</td>';
         echo '<td>';
-        echo'<a href="delete-output.php?id=', $row['drama_id'], '">削除</a>';
+        echo'<a href="delete-output.php?drama_id=', $row['drama_id'], '">削除</a>';
         echo '</td>';
         echo '</th>';
         echo "\n";
