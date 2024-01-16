@@ -18,5 +18,6 @@
     　　年<input type="text" name="year"></form><br>
 <br>
     <button type="submit">登録</button></div>
+</form>
 </body>
 </html>
