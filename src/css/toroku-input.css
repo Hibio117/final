@@ -16,12 +16,3 @@ body {
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
-.toroku{
-    width: 150px;
-    height: 30px;
-    border-radius:30px;
-    background-color: #ffffff;
-    border-color:#e865ff ;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}

@@ -18,6 +18,5 @@
     　　年<input type="text" name="year"></form><br>
 <br>
     <button type="submit">登録</button></div>
-    <button class="toroku" onclick="location.href='toroku-output.php'">登録</button>
 </body>
 </html>
