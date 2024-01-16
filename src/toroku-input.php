@@ -12,8 +12,8 @@
     <input type="submit" value="トップに戻る"></form><br>
 
     <form action="toroku-output.php" method="post">
-    作品ID<input type="text" name="drama_id"></div><br>
-    作品名<input type="text" name="name"></div><br>
+    作品ID<input type="text" name="drama_id"><br>
+    作品名<input type="text" name="name"><br>
     年<input type="text" name="year"></div><br>
 <br>
     <button type="submit">登録</button>
