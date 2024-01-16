@@ -10,6 +10,7 @@
     <title>Document</title>
 </head>
 <body>
+<div id="content">
 <h1>削除画面</h1>
     <form action="index.php" method="post">
     <input type="submit" value="トップに戻る"></form><br>
