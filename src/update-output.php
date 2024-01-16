@@ -44,6 +44,8 @@
     }
     ?>
         </table>
+        <br>
+        <br>
         <button class="modoru" onclick="location.href='update-input.php'">更新画面へ戻る</button>
 </body>
 </html>
